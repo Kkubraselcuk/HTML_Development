@@ -1,0 +1,278 @@
+/* CSS FILE */
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Montserrat+Alternates:wght@600&display=swap');
+
+#login{
+    width: 1800px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    border-left: 1px solid rgb(192, 192, 192);
+    border-right: 1px solid rgb(192, 192, 192);
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+#login-right{
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    height: auto;
+}
+#login-list{
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 350px;
+}
+.login-list-item{
+    font-size: 12px;
+    width: 120px;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    text-align: center;
+    border-left: 1px solid rgb(192, 192, 192);
+    border-right: 1px solid rgb(192, 192, 192);
+    display: inline;
+    float: left;
+}
+.login-list-item img{
+    margin-right: 5px;
+}
+#item-login, #item-seacrh{
+    width: 120px;
+}
+#item-translate{
+    width: 140px;
+}
+#item-facebook{
+    width: 50px;
+}
+.header{
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+    background: url(/shared/img/header_bg.jpg) no-repeat center bottom, #fff;
+}
+.header-main{
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+    width: 860px;
+    height: 130px;
+    background: url(/shared/img/header_bg.jpg) no-repeat center bottom, #fff;
+}
+#header-main-title{
+    width: 680px;
+    text-align: justify;
+    margin-top: 0px;
+    font-family: 'Joan', serif;
+    display: inline;
+    float: left;
+}
+#header-main-title h1,#header-main-title h2{
+    width: 680px;
+    text-align: justify;
+}
+#header-main-title h1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 70px;
+    color: rgb(9, 62, 82);
+}
+#header-main-title h2{
+    margin-top: -20px;
+    font-size: 50px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    color: rgb(218, 169, 0);
+}
+#header-main-img{
+    width: 155px;
+    display: inline;
+    float: left;
+    margin-right: 20px;
+}
+.navbar{
+    background-color:rgb(9, 62, 82);
+    display: flex;
+    justify-content: flex-center;
+    width: 1800px;
+    height: auto;
+    margin: 0 auto;
+}
+.navbar-main{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+#navbar-main-list{
+    color: white;
+    margin: 15px auto;
+    list-style-type: none;
+    text-align: center;
+}
+.navbar-main-list-item{
+    list-style-type: none;
+    text-decoration-color: rgb(218, 169, 0);
+    box-sizing: border-box;
+    padding: 0px 30px;
+    text-align: center;
+    display: inline;
+}
+.navbar-main-list-item::before{
+    content: "\2022";
+    color: rgb(218, 169, 0);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 40px;
+}
+.navbar-main-list-item a, a:active, a:visited{
+    color: white;
+    text-decoration: none;
+}
+#content .inside{
+    width:1800px;
+    height: 700px;
+    margin: 0 auto;
+    background: url(/shared/img/content-bg.jpg) no-repeat center bottom, #fff;
+    border-bottom: 5px solid rgb(218, 169, 0);
+}
+#content-main{
+    background-color: white;
+    width:1100px;
+    height:500px;
+    border-top: 5px solid rgb(218, 169, 0);
+    margin: 0 auto;
+    margin-top: -100px;
+}
+.content-top-item{
+    width: 330px;
+    height: 110px;
+    margin: 25px 18px 25px 18px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    color: white;
+}
+.content-top-item-left{
+    width:190px;
+    height:110px;
+    display: inline-block;
+    float: left;
+}
+.content-top-item-left img{
+    width:190px;
+    height:110px;
+}
+.content-top-item-right{
+    width:140px;
+    height:110px;
+    display: inline-block;
+    float: left;
+    background: url(/shared/img/item_bg.png) no-repeat center bottom, rgb(9, 62, 82);
+}
+#content-bottom-left, #content-bottom-right{
+    display: inline-block;
+    float: left;     
+    width: 50%;
+}
+#content-bottom-left h3, #content-bottom-right h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: rgb(9, 62, 82);
+    font-size: 34px;
+    text-align: center;
+}
+.events-item{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+}
+.events-item-date{
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 55px;
+    height: 55px;
+    display: inline;
+    float: left;
+    color: rgb(9, 62, 82);
+    background-color: rgb(218, 169, 0);
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 30px;
+}
+.events-item-date span{
+    margin: 25px auto;
+    font-size: 16px;
+    
+    position: relative;
+    top: 6px;
+}
+.events-item-text{
+    padding-right: 20px;
+}
+.events-item-text div, .news-title{
+    color: rgb(9, 62, 82);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+#events-show{
+    margin-top: 50px;
+}
+.events-show-item, .news-show-item{
+    display: inline-block;
+    float: left;
+    margin-right: 35px;
+    color: rgb(9, 62, 82);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.events-show-item .span, .news-show-item .span{
+    color: rgb(218, 169, 0);
+}
+
+.news-item{
+    width: 100%;
+    min-height: 160px;
+    height:auto;
+    max-height: 160px;
+    box-sizing: border-box;
+    border-bottom: 1px dashed black;
+    margin-top: 15px;
+}
+#box-item{
+    width: 100%;
+    min-height: 110px;
+    height: 110px;
+    max-height: 110px;
+}
+.news-item-left, .news-item-right{
+    width: auto;
+    height: 160px;
+    display: inline-block;
+    float: left;
+}
+.news-item-right{
+    padding-left: 30px;
+    width: 310px;
+}
+.news-title{
+    margin-top: 0;
+    color: rgb(9, 62, 82);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+#news-show{
+    margin-top: 15px;
+}
+#content-main{
+    display: block;
+}
+#footer{
+    display: block;
+    position: relative;
+    bottom: -300px;
+
+}
+#veritas-container{
+    width:1800px;
+    height: 700px;
+    margin: 0 auto;
+    background: url(shared/img/veritas_probitas-bg.jpg) no-repeat center bottom, #fff;
+}
